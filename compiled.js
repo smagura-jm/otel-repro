@@ -22,9 +22,7 @@ __export(index_exports, {
   handler: () => handler
 });
 module.exports = __toCommonJS(index_exports);
-var handler = () => {
-  200;
-};
+var handler = () => 200;
 // Annotate the CommonJS export names for ESM import in node:
 0 && (module.exports = {
   handler

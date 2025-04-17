@@ -1,3 +1,1 @@
-export const handler = () => {
-  200;
-};
+export const handler = () => 200;
